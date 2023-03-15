@@ -1,0 +1,9 @@
+{
+  "name": "qr-code-component",
+  "version": "1.0.0",
+  "description": "A simple QR Code component",
+  "main": "",
+  "scripts": {},
+  "author": "Musread",
+  "license": "ISC"
+}
