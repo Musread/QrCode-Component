@@ -4,7 +4,7 @@
   "description": "A simple QR Code component",
   "main": "",
   "scripts": {
-    "watch": "node-sass sass/main.scss main.css"
+    "watch:sass": "node-sass sass/main.scss app.css -w"
   },
   "author": "Musread",
   "license": "ISC",

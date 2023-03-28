@@ -1,0 +1,71 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%;
+  font-family: Outfit, sans-serif; }
+
+body {
+  background-color: #d6e2f0;
+  height: 100vh; }
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center; }
+
+.heading-secondary {
+  font-weight: 700;
+  font-size: 2rem; }
+  @media only screen and (max-width: 23.4375em) {
+    .heading-secondary {
+      font-size: 1.5rem; } }
+
+.u-small-margin-bottom {
+  margin-bottom: 1.5rem; }
+
+.attribution {
+  font-size: 11px;
+  text-align: center; }
+
+.attribution a {
+  color: #3e52a3; }
+
+.qr-card {
+  background-color: white;
+  width: 30rem;
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem 1.5rem;
+  border-radius: 1.5rem;
+  align-items: center;
+  box-shadow: 0 1.5rem 1.5rem rgba(0, 0, 0, 0.1); }
+  @media only screen and (max-width: 23.4375em) {
+    .qr-card {
+      width: 25rem;
+      border-radius: 1rem; } }
+  .qr-card__qr-code {
+    width: 100%;
+    border-radius: 0.7rem; }
+    @media only screen and (max-width: 23.4375em) {
+      .qr-card__qr-code {
+        border-radius: 0.5rem; } }
+  .qr-card__description {
+    padding: 2rem 1rem;
+    text-align: center; }
+    @media only screen and (max-width: 23.4375em) {
+      .qr-card__description {
+        padding: 1rem 0.5rem; } }
+  .qr-card__text {
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: #7b879d; }
+    @media only screen and (max-width: 23.4375em) {
+      .qr-card__text {
+        font-size: 1rem; } }

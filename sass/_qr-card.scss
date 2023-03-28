@@ -1,0 +1,43 @@
+.qr-card {
+  background-color: hsl(0, 0%, 100%);
+  width: 30rem;
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem 1.5rem;
+  border-radius: 1.5rem;
+  align-items: center;
+  box-shadow: 0 1.5rem 1.5rem rgba(0, 0, 0, 0.1);
+
+  @include mobile {
+    width: 25rem;
+    border-radius: 1rem;
+  }
+
+  &__qr-code {
+    width: 100%;
+    border-radius: 0.7rem;
+
+    @include mobile {
+      border-radius: 0.5rem;
+    }
+  }
+
+  &__description {
+    padding: 2rem 1rem;
+    text-align: center;
+
+    @include mobile {
+      padding: 1rem 0.5rem;
+    }
+  }
+
+  &__text {
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: hsl(220, 15%, 55%);
+
+    @include mobile {
+      font-size: 1rem;
+    }
+  }
+}
